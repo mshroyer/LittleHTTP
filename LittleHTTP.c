@@ -142,7 +142,5 @@ int main(int argc, char* argv[])
     closesocket(clientSock);
   }
 
-  croak(L"This is a tiny http server");
-
   return 0;
 }
